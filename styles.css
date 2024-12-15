@@ -1,0 +1,110 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+#main-body {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  width: 700px;
+  height: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  flex-wrap: wrap;
+}
+
+img {
+  border-radius: 25px;
+  width: 650px;
+  height: 250px;
+  margin: auto;
+}
+header {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.sub-section {
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  flex-wrap: wrap;
+}
+.middle-section {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
+  padding: 10px, 10px 10px 20px;
+}
+
+.prepare-heading {
+  color: hsl(332, 51%, 32%);
+  font-family: "Young Serif", serif;
+  font-weight: 800;
+  padding-left: 25px;
+}
+.sub-heading {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: xx-large;
+  margin: 10px 15px;
+}
+ul li {
+  padding: 0 30px;
+  height: 30px;
+  line-height: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+}
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+ol li {
+  padding: 0 30px;
+  height: auto;
+  line-height: 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+hr {
+  border-top: 0.5px solid gray;
+  width: 100%;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  padding-left: 15px;
+}
+
+table {
+  margin: auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+}
+.table-bold {
+  color: hsl(14, 45%, 36%);
+}
+
+tr,
+th,
+td {
+  border-bottom: 0.5pt solid black;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+  }
+}
