@@ -18,7 +18,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1439" alt="Screenshot 2024-12-15 at 10 40 33 AM" src="https://github.com/user-attachments/assets/0c28b32a-4890-4c37-a9fb-8460ef33e78d" />
+<img width="1434" alt="Screenshot 2024-12-15 at 10 40 48 AM" src="https://github.com/user-attachments/assets/8ff9569d-1587-4d15-8b5b-47dcd5876b4b" />
 
 
 ### Links
